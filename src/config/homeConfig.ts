@@ -67,8 +67,8 @@ export const homeConfig: HomeConfig = {
 				author: "by 冰冰坚老师",
 			},
 			intro: {
-				direction: "站点专研方向Java后端、前端、Agent和Python",
-				hobby: "热衷于制作一些没人用的小组件和收集好看的AI绘画",
+				direction: "",
+				hobby: "",
 				bio: "欢迎来到我的博客",
 			},
 		},
@@ -76,16 +76,9 @@ export const homeConfig: HomeConfig = {
 		dialogue: {
 			enabled: true,
 			lines: [
-				"欸——来客人了喵～随便坐，别客气。",
-				"我是喵墩，老爸在摸鱼，这儿归我管了喵～",
-				"这站的配色是他调的吧，审美这事喵墩不评价。",
-				"老爸自称全栈，其实是半桶水，俗称「全干工程师」喵。",
-				"前端后端都只会一点点，剩下全靠嘴硬撑着喵。",
-				"整站基本是 AI 搓出来的，他喵爪都没动几下，还搁那儿邀功喵。",
-				"别被他的技术术语唬住，八成他自己也半懂喵。～",
-				"傻爸爸最近在捣鼓 Agent，不知道又要整啥活喵。",
-				"角落里藏着不少彩蛋，站点还热乎着，刚出锅的，小心烫爪喵。",
-				"感兴趣可以加 QQ 群喵，放心，傻爸爸不咬人的。",
+				"欢迎来到我的小站。",
+				"随便看看，希望能有收获。",
+				"有问题可以留言交流。",
 			],
 		},
 		// 玻璃雨珠 + 撞击水花（移动端自动降低密度，尊重 prefers-reduced-motion）
@@ -149,7 +142,6 @@ export const homeConfig: HomeConfig = {
 				{ text: "别熬夜了", weight: 3 },
 				{ text: "刚出锅，趁热看", weight: 2 },
 				{ text: "开源的，开源的", weight: 2 },
-				{ text: "哈基墩到此一游", weight: 2 },
 				{ text: "敬自己一杯", weight: 2 },
 				{ text: "感觉很赞", weight: 2 },
 				{ text: "班味有点重", weight: 2 },
