@@ -14,3 +14,10 @@
 /api/allPostMeta.json
   Content-Type: application/json; charset=utf-8
   Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+# 全局安全头（迁移自 vercel.json，Cloudflare Pages 原生支持 _headers）
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
